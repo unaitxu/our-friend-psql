@@ -17,7 +17,7 @@ brew info postgresql
 brew switch postgresql {version}
 brew pin postgresql
 # To update again
-brew unpin postgresq
+brew unpin postgresql
 ```
 
 * To update from 9.4.5_2 to 9.5 (it's always a good idea to have an updated backup :wink: )
