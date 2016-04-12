@@ -33,7 +33,7 @@ brew upgrade --all
 initdb /usr/local/var/postgres9.5 -E utf8
 
 # Run the pg_upgrade cmd
-pg_upgrade -v
+pg_upgrade -v \
   -d /usr/local/var/postgres \                    # The old db directory
   -D /usr/local/var/postgres9.5 \                 # The new db
   -b /usr/local/Cellar/postgresql/9.4.5_2/bin/ \  # Where the old psql version is
